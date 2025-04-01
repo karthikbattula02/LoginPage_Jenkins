@@ -6,7 +6,7 @@
 <%
     } else {
 %>
-    Welcome <%= session.getAttribute("userid") %>!<br/>
+    Welcome <%= session.getAttribute("firstName") %>!<br/>
     <a href='logout.jsp'>Log out</a>
 <%
     }
