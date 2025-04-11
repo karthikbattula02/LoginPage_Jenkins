@@ -23,8 +23,7 @@ pipeline {
             steps {
                 sh '''
                 cp target/LoginWebApp.war /Users/kbattula/ksoftwares/apache-tomcat-10.1.39/webapps
-                /Users/kbattula/ksoftwares/apache-tomcat-10.1.39/bin/shutdown.sh
-                /Users/kbattula/ksoftwares/apache-tomcat-10.1.39/bin/startup.sh
+                cd /Users/kbattula/ksoftwares/apache-tomcat-10.1.39/bin
                 '''
             }
         }
